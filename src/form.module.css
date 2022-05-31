@@ -1,0 +1,112 @@
+.component {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    
+    position: absolute;
+    min-height: 380px;
+    border: silver .5px solid;
+    box-shadow: rgb(148, 148, 148) .8px .8px 5px;
+    width: fit-content;
+    padding: 45px 50px;
+    margin-left: 370px;
+
+}
+
+
+
+.header {
+    margin-left: -35px ;
+    color: rgba(27, 118, 238, 0.801);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.form label {
+    color: rgb(141, 140, 140);
+}
+
+.formInput {
+    border: silver .5px solid;
+    border-radius: 5px;
+    width: 260px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.click {
+    border: rgb(248, 4, 4) .5px solid;
+    border-radius: 5px;
+    width: 260px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.formInput:focus,
+.click:focus {
+    border: none ;
+    border-radius: 5px;
+    width: 260px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.checkbox {
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox label {
+    color: rgb(58, 70, 228);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.checkbox input {
+    margin-top: 0px;
+    margin-left: -80px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    margin-top: 70px;
+    color: steelblue; 
+    text-decoration: none;
+    color: rgba(31, 34, 209, 0.884);
+    font-weight: bold;
+    font-size: 23px;
+}
+.button {
+    margin-top: 65px;
+    background-color: rgba(31, 34, 209, 0.884);
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form span {
+     color: rgba(219, 29, 29, 0.842);
+     text-shadow: rgba(219, 22, 22, 0.836) 1.5px 1.5px 7px,
+     rgba(219, 22, 22, 0.836) -1.5px -1.5px 7px;
+     font-weight: 600;
+     font-size: 14px;
+     position:relative;
+}
